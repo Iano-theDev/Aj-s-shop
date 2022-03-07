@@ -1,0 +1,114 @@
+* {
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    background-color: #3bff6c;
+}
+
+nav {
+    width: 100%;
+    height: 200px;
+    /* background: #ccc; */
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+.left {
+    width: 20%;
+    height: 750px;
+    border: 1px solid #000000;
+    float: left;
+}
+
+.right {
+    width: 79%;
+    height: 750px;
+    border: 1px solid #000000;
+    float: right;
+    text-align: center;
+}
+.section-1 {
+    width: 100%;
+}
+
+.section-2 { 
+    width: 100%;
+}
+.box {
+    padding: 20px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.row-1{
+    float: left;
+    width: 98%;
+    padding: 10px;
+
+}
+
+.row-2{
+    float: left;
+    width: 98%;
+    padding: 10px;
+
+}
+
+hr {
+    width: 70%;
+    clear: both;
+
+}
+
+.col-11 {
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+.col-12 {
+    float: right;
+    width: 30%;
+    padding: 20px;
+
+}
+
+.col-21 {
+    float: left;
+    width: 30%;
+    padding: 20px;
+}
+
+.col-22 {
+   float: right;
+    width: 30%;
+    padding: 20px;
+}
+
+
+form {
+    float: left;
+    text-align: center;
+}
+.container {
+    float: left;
+    padding: 5px;
+    margin: 10px;
+}
+
+.left table {
+    float: left;
+
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    /* background-color: #ccc; */
+    clear: both;
+    border: 1px solid #000000;
+}
